@@ -1,0 +1,4 @@
+# V2 and Legacy MediaPipe applications.
+mediapipe>=0.10.14,<0.11
+numpy>=1.24,<2.0
+opencv-python>=4.8,<5

@@ -1,0 +1,33 @@
+.git
+.gitignore
+.gitattributes
+.github
+AGENTS.md
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.idea/
+.vscode/
+
+# Local biometric-adjacent calibration and evaluation data
+evaluation/gaze_log_*.csv
+evaluation/v2_calibration_state.json
+evaluation/.v2_calibration_state.json.*.tmp
+evaluation/calibration_states/
+evaluation/diagnostics/
+
+# Local release copies, media, and optional model binaries
+github_ready/
+github_release/
+gaze-tracking-v2.6/
+gaze_tracking/trained_models/*.dat
+*.mp4
+*.avi
+*.mov
